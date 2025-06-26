@@ -1,0 +1,48 @@
+body {
+  background: linear-gradient(to right, #284b62, #66b9f0);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+  width: 480px;
+  border: 2px solid rgb(255, 255, 255);
+}
+#display {
+  height: 80px;
+  width: 473px;
+}
+.order {
+  display: flex;
+  justify-content: center;
+}
+.number {
+  font-size: 20px;
+  color: rgb(0, 238, 255);
+  font-weight: bold;
+  height: 120px;
+  width: 120px;
+}
+.operator {
+  font-size: 22px;
+  color: rgb(10, 224, 248);
+  font-weight: bold;
+  height: 120px;
+  width: 120px;
+}
+.number:hover {
+  background: rgba(0, 238, 255, 0.1);
+  cursor: pointer;
+  opacity: 1.05;
+}
+.operator:hover {
+  background: rgba(10, 224, 248, 0.1);
+  cursor: pointer;
+  opacity: 1.05;
+}
